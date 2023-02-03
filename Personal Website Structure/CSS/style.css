@@ -1,0 +1,27 @@
+     body { 
+      background-color : #C5A880;
+      color : #532E1C;
+    }
+
+    hr {
+
+      background-color: none;
+      border-color : #EEE3CB;
+      border-style : dotted none none none;
+      border-width : 7.5px;
+      width : 7%;
+      height : 15px;
+
+    }
+
+    #hoverBritt:hover {
+
+      color : pink;
+
+    }
+
+    #hoverBrittBoogaloo:hover {
+
+      color : yellow;
+
+    }
