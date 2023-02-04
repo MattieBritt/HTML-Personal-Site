@@ -1,0 +1,40 @@
+#top {
+
+background-color : #D7C0AE;
+
+}
+
+#middle {
+
+    background-color: blue;
+    width : 200px;
+    height : 200px;
+}
+
+#bottom {
+
+    background-color: purple;
+    width : 200px;
+    height : 200px;
+}
+
+
+body {
+
+margin-top : 0px;
+margin-right : 0px;
+margin-left : 0px;
+margin-bottom : 0px;
+
+}
+
+.pro {
+
+    text-decoration : underline;
+}
+
+.magictrick:hover .tada {
+
+display : inline;
+
+}

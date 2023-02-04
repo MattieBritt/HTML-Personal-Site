@@ -1,0 +1,189 @@
+<style> 
+
+h1 {
+background-color : lightblue;
+}
+
+h2 {
+
+background-color : lightseagreen;
+
+}
+
+</style>
+
+<h1> Section 2 : Intro to HTML </h1>
+<br>
+<h1> This is a level 1 heading created using the h1 tag </h1>
+<h2> This is a level 2 heading created using the h2 tag </h2>
+<h3> This is a level 3 heading created using the h3 tag </h3>
+<h4> This is a level 4 heading created using the h4 tag </h4>
+<h5> This is a level 5 heading created using the h5 tag </h5>
+<h6> This is a level 6 heading created using the h6 tag </h6>
+<br>
+
+<h2> HTML Boilerplate Code </h2>
+<p> See the comment within </p>
+<!-- <!Doctype HTML> 
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <title> My Website </title>
+  </head>
+
+  <body> 
+    <h1> Hello World </h1>
+    <p> And hello again! </p>
+  </body>
+</html> -->
+
+<br>
+<h2> Creating Lists </h2>
+<p> "Ul" stands for Unordered List, which are simple bulletpoints </p>
+<p> "Ol" stands for Ordered List, and it is a simple numerical list </p>
+<br>
+
+<h2> Adding Images to your Page </h2>
+<p> See the comment within </p>
+<!-- "<img src = "www.examplewebsite.com">" -->
+<br>
+
+<h2> Adding Links to your Page </h2>
+<a href = "https://www.blogger.com"> This is a link that will simply transfer you from this page to the targeted page </a>
+<br>
+<a target = "_blank" href = "https://www.blogger.com"> This is a link that will open up a separate tab to transfer you to the targeted page (useful :p) </a>
+<br>
+<br>
+<h1> Section 3 : Intermediate HTML </h1>
+<br>
+<h2> Adding and Configuring Tables to your Page </h2>
+
+<p> Here is the boiler plate code for a table (look within comment) </p>
+
+<!-- table>
+        <thead>
+          <tr> 
+            <th> </th>
+            <th> </th>
+          </tr>
+        </thead>
+        <tr>
+          <td> </td>
+          <td> </td>
+        </tr>
+        <tr> 
+          <td> </td>
+          <td> </td>
+        </tr>
+      </table> -->
+
+<p> <ul> <li> Table elements (table) actually create the table </li> 
+  <li>  Table Headings (thead) add a heading to your column </li>
+  <li> Table Row (tr) adds a row to your table </li>
+  <li> Table Data (td) actually adds the data to your table </li> </ul> </p> 
+
+<br>
+
+<h2> Adding and Configuring Forms on your Website </h2>
+<p> Forms are helpful elements you can add to your website, it's self explanatory what they do. However, there are many different types of forms </p>
+<p> Here is the boiler plate code for a form (look within comment) </p>
+<!-- <form> 
+  <label> </label>
+  <input type = "">
+
+</form>-->
+
+<p> There are many different types of input for a form, here are a few : </p> 
+<br>
+
+<form>
+
+  <label> "text" : </label> <input type = "text"> <br>
+   <label> "color" : </label> <input type = "color"> <br>
+  <label> "checkbox" : </label> <input type = "checkbox"> <br>
+  <label> "password" : </label> <input type = "password"> <br>
+  <label> "submit" : </label> <input type = "submit"> <br>
+  <label> "file" : </label> <input type = "file"> <br>
+  <label> "date" : </label> <input type = "date"> <br>
+  <label> "radio" : </label> <input type = "radio"> <br>
+  <label> "range" : </label> <input type = "range"> <br>
+  
+</form>
+<br>
+
+<h1> Section 4 : Intro to CSS </h1>
+
+<h2> Changing the Background Color of your Website/Body </h2>
+<pre> There are multiple ways to change the background color of your Website/Body element
+      You can do this by going to your body element and typing "background-color : __"
+      There are many colors to choose from, and you can either list a color by name, or specifically use a hex code
+</pre>
+
+<h2> Inline CSS </h2>
+<pre> Inline CSS is what it sounds like--it's CSS (styling) written within the actual lines of code, not as a separate document, or even a separate space on the page</pre>
+<br>
+
+<h2> Internal CSS </h2>
+<pre> Similar to Inline CSS--Internal CSS is CSS that's written on a dedicated space in your HTML document using classes or general selectors (it will most likely go within the "head" part of your doc </pre>
+<br>
+
+<h2> External CSS </h2>
+<pre> External CSS, my personal favorite, is a separate .css file, specifically for the css styling across your ENTIRE website
+      This is useful for separating CSS from HTML, along with having more style options available
+</pre>
+<br>
+
+<h2> CSS Hierarchy </h2>
+<pre> CSS, evidently, has a hierarchical system when determining what style elements to use first and last
+      First, it will use any inline code present within your HTML file
+      Next, it will use any internal CSS code present within your HTML file
+      And, finally, it will resort to the actual external CSS file with your styling elements
+      Keep this in mind when working with future CSS elements! 
+
+      Important Note : It's best practice to keep your CSS selectors/lines in alphabetical order 
+      The reason behind this is to make it easier to find a specific line of code when you might be looking for it later on
+</pre>
+<br>
+
+<h2> CSS Classes </h2>
+<pre> Classes are selectors that allow you to call specific elements in order to apply style to them
+      For example, if you have multiple images on your website, and you don't want all of them to have a background of, purple, for examplewebsite
+      Instead of dealing with it, you can apply classes specifically to the images that you don't want to have a background color of purple
+
+      Imporant Note - Differences between ID's and Classes : In short, classes are used for multiple elements, while an ID can only be used for one element
+      Additionally, you can only have one id per element, but you can have multiple classes per element
+</pre>
+<br>
+
+<h1> Section 5 : Intermediate CSS </h1>
+<br>
+
+<h2> Favicons </h2>
+<pre> Favicons are small images that will appear as the icon of the windowed tab 
+      These icons can be anything, custom, or not
+</pre>
+<br>
+
+<h2> Divs </h2>
+<pre> A "div" stands for a "Content Division Element", it allows you to divide/split up your content/elements into separate boxes 
+      This is helpful for making things look nice with precision spacing, while also being able to effect each box separately 
+</pre>
+<br>
+
+<h2> The Box Model </h2>
+<pre> The Box Model in HTML/CSS is a model for manipulating Divs, along with other particular elements (namely : Padding, Margin, Border, Width, and Height
+      Padding - Padding causes the text to be separated from the border by a specified amount (it effects the area between the border and the text)
+      Margin - Margin causes the box/div to be pushed away from any other element by a set amount (it spaces div/boxes from each other)
+      Border - Border effects the border (duh) in how it looks and operates, you can make the border thicker, thinner, and on any side 
+      Width + Height - Self explanatory, it effects the width and height of the element
+</pre>
+<br>
+
+<h2> Display in CSS and HTML </h2>
+<pre> Display is an attribute applied to many elements within CSS, as it sounds, diplay, affects how elements are displayed
+      Here are the several types of display :
+      Block - An element takes up an enitre line--no other elements can be on the same line as it, however you can change the width of the element
+      Inline - An element that only takes up as much space as it needs, and other elements can be on the same line as it, however, you CAN'T change the width of the element
+      Block-Inline - An element which takes the best of both worlds (from inline and block), you can both have several elements on the same line, AND edit their width
+      None - None removes an element entirely, like it doesn't exist lol "Gone, reduced to atoms--I used the stones to destroy the stones"
+</pre>
