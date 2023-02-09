@@ -214,4 +214,49 @@ background-color : lightseagreen;
       The best way to intialize bootstrap and utilize it in a project/website is to use the direct link href from "https://getbootstrap.com/docs/5.3/getting-started/introduction/"
       It has all sorts of bits and bops so I'm looking forward to seeing what all I can do with it!
 </pre>
+<br>
+
+<h2> Bootstrap - Grid Layout </h2>
+<pre> Bootstrap has a ton of cool functions within its library, one of them being the grid layout
+      This allows you to add columns and rows to your website, which are modular, depending on your screen size
+      To do this, you start out with a div with the class of "row", and then include a div within it with the class of "col"
+      Afterwards, it gets a bit more complicated, as you can define how many columns you want for a certain screen size
+      To summarize, imagine across an entire screen you have 12 boxes, and you can specify how many boxes you want across the screen at any given time (within a certain screen size)
+      For example : On desktops and laptops, I want there to be 6 boxes, on ipads, I want there to be 4 boxes, and on mobile, I want the column to take up the entire screen
+      Look at the code for an example of how it would look :
+
+      <!-- 
+
+ <div class = "row">
+    
+    <div class = "col-lg-2 col-md-3 col-sm-1" style = "background-color : purple; border : 1px solid;"> 
+    col-lg-6 col-md-4 col-sm-1
+      </div>
+    <div class = "col-lg-2 col-md-3 col-sm-1" style = "background-color : purple; border : 1px solid;"> 
+    col-lg-6 col-md-4 col-sm-1
+      </div>
+    <div class = "col-lg-2 col-md-3 col-sm-1" style = "background-color : purple; border : 1px solid;"> 
+    col-lg-6 col-md-4 col-sm-1
+      </div>
+    <div class = "col-lg-2 col-md-3 col-sm-1" style = "background-color : purple; border : 1px solid;"> 
+    col-lg-6 col-md-4 col-sm-1
+      </div>
+    <div class = "col-lg-2 col-md-3 col-sm-1" style = "background-color : purple; border : 1px solid;"> 
+    col-lg-6 col-md-4 col-sm-1
+      </div>
+    <div class = "col-lg-2 col-md-3 col-sm-1" style = "background-color : purple; border : 1px solid;"> 
+    col-lg-6 col-md-4 col-sm-1
+      </div>
+    
+</div>
+
+      -->
+</pre>
+<br>
+
+<h2> Bootstrap - Containers </h2>
+<pre> Containers in bootstrap are essentially divs, except they have an inate modular style to them (tl;dr - they adjust to the screen size accordingly)
+      "container" - can be jarring (arguably worse in most situations) will adjust to the screen size by jumping between the different pixel (screen) sizes 
+      "container-fluid" - will always take up 100% of the screen size and smoothly transition accordingly as the screen size changes
+</pre>
 
