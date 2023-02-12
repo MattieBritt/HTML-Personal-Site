@@ -8,9 +8,23 @@ body {
 #title {
 
   background-color: #ff4c68;
+  padding : 50px 100px;
 
 }
 
+h1 {
+
+
+}
+
+
+h2 {
+
+  font-family: 'Montserrat', sans-serif;
+  font-size : 3rem;
+  font-weight : 700;
+
+}
 
 .navbar-brand {
 
@@ -61,55 +75,104 @@ font-weight : 100;
 }
 */ 
 
-.container-fluid {
-
-  padding : 3% 10%;
-
-}
-
 .btn.btn-primary.btn-dark.btn-lg {
 
   margin-right : 10px;
 
 }
 
-.col-lg-4.col-md-12 i {
+.features-box i {
 
   color : #ef8172;
+  margin-bottom : 0.5rem;
+
   
 }
 
-.col-lg-4.col-md-12 i:hover {
+.features-box i:hover {
 
   color : #ff4c68;
 
-
 }
 
-.col-lg-4.col-md-12 {
+.features-box {
 
-margin : 150px 0px;
 text-align: center;
 display : inline-block;
+padding : 4.5%;
 
 }
 
 
-.col-lg-4.col-md-12 h3 {
+.features-box h3 {
 
   font-size : 1.5rem;
   font-family: 'Montserrat', sans-serif;
   font-weight : 700;
-  padding : 10px 30px;
 
 }
 
-.col-lg-4.col-md-12 p {
+.features-box p {
 
   color : #8f8f8f;
-  padding : 0px 30px;
 
 }
+
+#features {
+
+padding : 7% 5%;
+
+}
+
+#testimonials {
+
+  padding : 7% 10%;
+  text-align : center;
+  background-color : #ef8172;
+  color : #fff;
+
+}
+
+.testimonial-image {
+
+width : 10%;
+border-radius : 100%;
+margin : 20px;
+
+}
+
+#press {
+
+  background-color : #ef8172;
+  text-align : center;
+  padding-bottom : 3%;
+
+
+}
+
+.press-image {
+
+  width : 20%;
+  margin : 20px 20px 50px;
+
+}
+
+#pricing {
+
+  padding : 3% 10%;
+  margin : 0% 5%;
+}
+
+.pricing {
+
+  text-align : center;
+  font-size : 1.5rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight : 700;
+  padding : 5% 0%;
+
+}
+
 
 
 
