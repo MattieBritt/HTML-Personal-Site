@@ -81,6 +81,8 @@ font-weight : 100;
 
 }
 
+/* Features  */
+
 .features-box i {
 
   color : #ef8172;
@@ -124,6 +126,8 @@ padding : 7% 5%;
 
 }
 
+/* Testimonials  */
+
 #testimonials {
 
   padding : 7% 10%;
@@ -157,10 +161,13 @@ margin : 20px;
 
 }
 
+/* Pricing  */
+
 #pricing {
 
-  padding : 3% 10%;
-  margin : 0% 5%;
+  padding : 7% 5%;
+  margin-left : 5%;
+
 }
 
 .pricing {
@@ -170,9 +177,68 @@ margin : 20px;
   font-family: 'Montserrat', sans-serif;
   font-weight : 700;
   padding : 5% 0%;
+  margin : 0px 10px;
 
 }
 
+.card {
+
+  height : 24rem;
+
+}
+
+.card-body {
+
+  padding : 0;
+  text-align : center;
+
+}
+
+.card h3{
+
+  font-weight : 700;
+  font-size : 1.2rem;
+  margin-bottom : 30px;
+
+}
+
+.card h5{
+
+  font-weight : 700;
+  font-size : 2.5rem;
+  margin-bottom : 20px;
+
+}
+
+.card-header {
+
+  padding : 15px;
+
+}
+
+.card p {
+
+line-height: 1.5rem;
+
+}
+
+.card button {
+
+padding : 0px 20px;
+
+}
+
+#mastiff {
+
+margin : 5px 25px;
+
+}
+
+#reg {
+
+margin : 45px 25px;
+
+}
 
 
 
