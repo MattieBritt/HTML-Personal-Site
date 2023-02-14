@@ -192,7 +192,10 @@ background-color : lightseagreen;
       (This is useful if you want to keep the flow of your document the same, as it doesn't move other elements around. However, keep in mind, you are moving it in the opposite direction of what you specify)
       Absolute - The element will move <strong> from </strong> the top, bottom, left, or right, in relativity to the parent document (In essence, you're moving it in the direction of where you're specifying)
       Fixed - The element will follow the user and stay fixed in its position across the website (very good for nav-bars or side-bars that you want to be seen at all times)
-</pre>
+
+      Important Note, Natural Stacking Order - The natural stacking order in CSS dictates that whichever element comes first will be the furthest back (on the z plane)
+      Additionally, "children sit on their parents", which can also be interpreted as nesting (elements within elements, divs within divs), dictates that the child element of a parent element will be on top 
+    </pre>
 <br> 
 
 <h2> Tips Moving Forward </h2>
@@ -282,4 +285,86 @@ background-color : lightseagreen;
       There are various properties such as how fast you want the carousel to cycle through ("data-bs-interval"), if you want it to be automatic ("data-bs-ride = "carousel"")
       If you want the carousel to pause while your cursor is hovering over it ("data-bs-pause : "hover""), etc
       You need to have an "active" tag on one of your carousel items to be displayed by default when your website launches
+</pre>
+<br>
+
+<h2> Cards </h2>
+<pre> Cards in bootstrap have a variety of uses, but in this context I'll be talking about them as a visual pricing scale 
+      Cards are exactly as they sound like, they're a grid, that resembles a card, which is used to display information
+      You can add a heading, a footer, a title they're pretty customizable and are also compatible with everything else within Bootstrap
+      Here is some example code from my Tinder clone that demonstrates cards : 
+
+      As you can see, it's held within a grid and includes a list, along with a button 
+      Make sure that when creating cards, you make separate divs for the column class and the card class itself
+
+      <!-- <div class="row">
+
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-header"> Chihuahua </h3>
+              <h5 class="card-title"> Free </h5>
+                <p class="list-group-item"> 5 Matches Per Day </p>
+                <p class="list-group-item"> 10 Messages Per Day </p> 
+                <p class="list-group-item"> Unlimited App Usage </p>
+                <div class = "d-grid gap-2">
+                <button type="button" class="btn btn-lg btn-light btn-outline-dark" id = "reg"> Sign Up for Free </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-6">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-header"> Labrador </h3>
+              <h5 class="card-title"> $49 / mo </h5>
+              <p class="list-group-item"> Unlimited Per Day </p>
+              <p class="list-group-item"> Unlimited Messages Per Day </p> 
+              <p class="list-group-item"> Unlimited App Usage </p>
+              <div class = "d-grid gap-2"> 
+              <button type="button" class="btn btn-lg btn-dark" id = "reg"> Sign Up </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-lg-4 col-md-12">
+          <div class="card">
+            <div class="card-body">
+              <h3 class="card-header"> Mastiff </h3>
+              <h5 class="card-title"> $99 / mo </h5>
+              <p class="list-group-item"> Priority Listing </p>
+              <p class="list-group-item"> Unlimited Per Day </p>
+              <p class="list-group-item"> Unlimited Messages Per Day </p> 
+              <p class="list-group-item"> Unlimited App Usage </p>
+              <div class = "d-grid gap-2"> 
+              <button type="button" class="btn btn-lg btn-dark mastiff" id = "mastiff" > Sign Up </button>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+      </div>  -->
+</pre>
+<br> 
+
+<h2> Z-Index and Stacking Order </h2>
+<pre> The Z-Index is the value that each element has which determines where they sit on the visual heirarchy, for example, all elements have a Z-Index of 0 as a base 
+      If I changed a particular element to have a Z-Index of -1, it would then go behind all of the elements that had a higher Z-Index
+      In lamens terms, the Z-Index value determines whether or not an element will be on top of, or behind, another element (in order)
+
+      Important Note : Using the Z-Index can be complicated because the CSS stacking order plays a role as well, however, if you want to use the Z-Index on an element, it HAS to have a "position : " to work
+      In my short amount of experience using it, I've found that the relative position is generally the best to use, but it depends on the circumstances of what you're trying to accomplish
+</pre>
+<br>
+
+<h2> Media Query Breakpoints </h2>
+<pre> A media query breakpoint is a native CSS feature that allows you to make changes when certain parameters are met
+      For example (and most likely a realistic one), I want to make my text larger when the screen size (resolution) is detected going from a laptop resolution, to a tablet/phone resolution
+      It's essentially a boolean and an if/else statement combined
+
+      Example : &lt; @media (max-width : 900px) &gt;
+
+      You can also combined multiple media queries with "and" between queries 
 </pre>

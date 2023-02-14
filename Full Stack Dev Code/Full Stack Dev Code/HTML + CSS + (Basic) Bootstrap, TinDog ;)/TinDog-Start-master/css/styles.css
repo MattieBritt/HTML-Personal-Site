@@ -8,13 +8,8 @@ body {
 #title {
 
   background-color: #ff4c68;
-  padding : 50px 100px;
-
-}
-
-h1 {
-
-
+  padding : 0px 100px;
+  padding-bottom : 100px;
 }
 
 
@@ -64,7 +59,9 @@ font-weight : 100;
 #tindog {
 
   transform: rotate(25deg);
-  width : 60%;
+  max-height : 35rem;
+  position : absolute;
+  right : 250px;
 
 }
 
@@ -123,6 +120,14 @@ padding : 4.5%;
 #features {
 
 padding : 7% 5%;
+background-color : white;
+
+}
+
+.features {
+
+  position : relative;
+  z-index : 2;
 
 }
 
@@ -240,6 +245,63 @@ margin : 45px 25px;
 
 }
 
+@media (max-width : 1028px) {
+
+  #title {
+
+    text-align : center;
+
+  }
+
+  #tindog {
+
+    position : static;
+    transform : rotate(0deg)
+  }
+
+}
+
+#cta { 
+
+  background-color : #ff4c68;
+  padding-bottom : 100px;
+
+}
+
+#cta h3 {
+
+  text-align : center;
+  font-size : 2rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight : 900;
+  color : white;
+  padding : 50px 0px;
+  margin-left : 300px;
+  width : 50%;
+
+}
+
+#footer {
+
+
+padding-top : 70px;
+text-align : center;
+background-color : white;
+
+}
+
+#footer i {
+
+margin-right : 15px;
+padding-bottom : 20px;
+
+}
+
+#footer p {
+
+  color : #8f8f8f;
+
+}
 
 
 
