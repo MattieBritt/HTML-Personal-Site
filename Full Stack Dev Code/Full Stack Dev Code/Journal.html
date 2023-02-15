@@ -368,3 +368,52 @@ background-color : lightseagreen;
 
       You can also combined multiple media queries with "and" between queries 
 </pre>
+<br>
+
+<h2> Code Refactoring </h2>
+<pre> Within coding, as a basic foundational rule, it's important to keep your code as neat (readable) as possible
+      To help with this, you want to keep your code "DRY" (DRY : "Don't Repeat Yourself")
+      This would fall into the category of keeping the broader additions to your code for the classes and the sections, while keeping the specific additions to individual elements
+
+      A few ways to improve your code through refactoring goes as follows : 
+      1. Readability - If an axe murderer was reading your code, how much would they want to murder you after they were finished? (Keep code clean to avoid axe murderers, and angry co-workers)
+      2. Modularity - How modular is your code? (How easy is it for you to locate sections, classes, ids, and elements within your website? How easily can you edit your code without effecting the rest of the website?)
+      3. Efficiency - How efficient is your code? How fast does your code execute and process?
+      4. Length - How long is your code? Self explanatory, doesn't really matter for anything except code golf ;p
+
+      You can also use combined selectors with sections to easily refactor your code over a broad scale, increasing both readabiliy and modularity
+</pre>
+<br>
+
+<h2> Combining Selectors </h2>
+<pre> Combining CSS selectors allows you to get more specific within your code, here are some ways you can combine CSS selectors :
+      Multiple Selectors - A good example of this is in the Tindog project (Tinder Clone)--located within the stylesheet there is a selector targeting h1 through h6, using commas
+      Ex : selector1, selector2 {}
+
+      Hierarchical Selectors (Read right to left, child --> parent) - The first selector is from the parent element and the second selector is from the child element, this type of selection allows you to get very specific with your code
+      Ex : selector1 selector2 {}
+
+      Combined Selectors (Read left to right, occurs within the same element) - An id or class being combined with an html element, for example
+      Ex : h1#title {color : red;}
+
+</pre>
+<br>
+
+<h2> Selector Priority </h2>
+<pre> Here is the order of CSS selector priority (in other words, which addition to your code will actually visibly apply)
+      HTML Selector --> CSS Class --> CSS ID --> Inline CSS 
+    
+      Some tips to avoid running into priority errors are :
+      1. Avoid using ID's over classes (use ID's sparingly)--just because there's only one of something doesn't mean it should get an ID (sections are good for ID's)
+      2. Only use one class when applying classes to your elements (when using multiple classes on the same element (that all contribute something different to the element), it can easily result in errors)
+      3. Avoid Inline Styles AT ALL COSTS! (I don't like using them anyways haha)
+</pre>
+
+
+<h2> Tips Moving Forward, P.3</h2>
+
+<ul> 
+  <li> To clarify, and re-iterate, don't target specific ids, classes, or elements, unnecessarily--instead, target the highest parent div/element you can</li>
+  <li> When using a link with an included href, you can use ids of specific sections within the page that will bring them to that part of the page</li>
+  <li> Instead of using width in place of padding, just use padding instead, only use width for its intended purpose (to limit the width of an element) (seems like common sense, but, live and learn lol)</li>
+</ul>
