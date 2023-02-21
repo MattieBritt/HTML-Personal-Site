@@ -1,0 +1,48 @@
+function main(){
+    chessPattern();
+}
+
+function chessPattern(){
+    putBeep3Row();
+    putBeep2Row();
+    putBeep3Row();
+    putBeep2Row();
+    putBeep3Row();
+}
+
+function putBeep3Row(){
+    putBeep();
+    putBeep();
+    turnOnRight();
+}
+
+function putBeep2Row(){
+    move();
+    putBeeper();
+    move();
+    move();
+    putBeeper();
+    move();
+    turnOnLeft();
+}
+
+function putBeep(){
+    putBeeper();
+    move();
+    move();
+}
+
+function turnOnRight(){ 
+    putBeeper();
+    turnLeft();
+    move();
+    turnRight();
+    turnRight();
+    turnRight();
+}
+
+function turnOnLeft(){
+    turnRight();
+    move();
+    turnRight();
+}
