@@ -1,17 +1,13 @@
 var output = [];
 
+var numberOfKids = 1;
+
 function fizzBuzz() {
-    
-var numberOfKids = output.length;
-    
+        
 output.push(numberOfKids);
 
-console.log(output.length);
+numberOfKids++;
+
+    console.log(output);
 
 }
-
-
-
-fizzBuzz();
-
-console.log(output);
